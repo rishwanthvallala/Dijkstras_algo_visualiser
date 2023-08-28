@@ -62,7 +62,4 @@ You can customize the project in the following ways:
 Contributions to this project are welcome! If you have any suggestions, improvements, or bug fixes, please open an issue or a pull request.
 
 
----
 
-Feel free to customize the content, add more sections, or include any additional information you find relevant to your project. Remember to replace placeholders like `your-username` and `your-repository-name` with your actual GitHub username and repository name.
-```
