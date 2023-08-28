@@ -33,8 +33,8 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/your-repository-name.git
-   cd your-repository-name
+   git clone https://github.com/rishwanthvallala/Dijkstras_algo_visualiser.git
+   cd Dijkstras_algo_visualiser
    ```
 
 2. Open the `index.html` file in a web browser to run the interactive map.
