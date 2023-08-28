@@ -17,7 +17,7 @@ This project implements an interactive map that allows users to visualize Dijkst
 
 ## Demo
 
-Check out the live demo of the interactive map here: [Interactive City Path Visualizer](https://your-username.github.io/your-repository-name/)
+Check out the live demo of the interactive map here: [Dijkstras Algorithm Visualizer](https://rishwanthvallala.github.io/Dijkstras_algo_visualiser/)
 
 ## Features
 
@@ -61,13 +61,8 @@ You can customize the project in the following ways:
 
 Contributions to this project are welcome! If you have any suggestions, improvements, or bug fixes, please open an issue or a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
 Feel free to customize the content, add more sections, or include any additional information you find relevant to your project. Remember to replace placeholders like `your-username` and `your-repository-name` with your actual GitHub username and repository name.
 ```
-
-Replace the placeholders in square brackets with your actual project information. Additionally, you can add a screenshot image (named `screenshot.png`) to the repository and reference it in the `README.md` file. This `README.md` template provides a basic structure that you can build upon to create a comprehensive and informative README for your project.
