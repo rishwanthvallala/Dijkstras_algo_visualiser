@@ -13,7 +13,7 @@ This project implements an interactive map that allows users to visualize Dijkst
 - [Usage](#usage)
 - [Customization](#customization)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Demo
 
