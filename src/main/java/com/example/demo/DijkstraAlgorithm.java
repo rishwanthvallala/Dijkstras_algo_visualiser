@@ -10,7 +10,7 @@ import java.util.PriorityQueue;
 import java.util.Set;
 
 public class DijkstraAlgorithm {
-    private Map<String, Map<String, Double>> graph;
+    private final Map<String, Map<String, Double>> graph;
 
     public DijkstraAlgorithm(Map<String, Map<String, Double>> graph) {
         this.graph = graph;

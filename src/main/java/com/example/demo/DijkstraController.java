@@ -20,6 +20,7 @@ public class DijkstraController {
     public List<Map<String, Object>> findShortestPath(@RequestBody Map<String, Object> request) {
         String start = (String) request.get("start");
         String end = (String) request.get("end");
+        @SuppressWarnings("unchecked")
         Map<String, Map<String, Double>> graph = (Map<String, Map<String, Double>>) request.get("graph");
 
         DijkstraAlgorithm dijkstra = new DijkstraAlgorithm(graph);
