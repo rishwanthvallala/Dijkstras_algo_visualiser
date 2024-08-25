@@ -22,7 +22,6 @@ let simulationState = {
 // Initialize the map
 async function initMap() {
     await fetchCitiesFromAPI();
-
     const mapStyles = [
         {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
         {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
@@ -146,12 +145,13 @@ async function initMap() {
 
 async function fetchCitiesFromAPI() {
     try {
-        const response = await fetch('http://localhost:8080/api/dijkstra/cities');
+        const response = await fetch('/api/dijkstra/cities');
         cities = await response.json();
     } catch (error) {
         console.error('Error fetching cities:', error);
     }
 }
+
 
 
 // Create a graph with distances between cities
@@ -212,7 +212,7 @@ function calculateDistance(lat1, lon1, lat2, lon2) {
 }
 async function* dijkstra(graph, start, end) {
     try {
-        const response = await fetch('http://localhost:8080/api/dijkstra/shortestpath', {
+        const response = await fetch('/api/dijkstra/shortestpath', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
