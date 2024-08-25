@@ -3,7 +3,7 @@
 
 This project implements an interactive map that allows users to visualize Dijkstra's algorithm for finding the shortest path between selected cities. It also displays the shortest distance between the chosen cities.
 
-![Screenshot](Screenshot.png)
+![Screenshot](image.png)
 
 ## Table of Contents
 
