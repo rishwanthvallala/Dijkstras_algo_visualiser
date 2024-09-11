@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Cities Path Finder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Indian Cities Path Finder</h1>
+        </header>
+        <main>
+            <div id="controls">
+                <div class="select-wrapper">
+                    <select id="startCity">
+                        <option value="">Select Start City</option>
+                    </select>
+                </div>
+                <div class="select-wrapper">
+                    <select id="endCity">
+                        <option value="">Select End City</option>
+                    </select>
+                </div>
+                <button id="startSimulation">Find Path</button>
+            </div>
+            <div id="mapContainer"></div>
+            <div id="infoPanel">
+                <div id="algorithmProgress">
+                    <h3>Algorithm Progress</h3>
+                    <p>Select cities and click 'Find Path' to start</p>
+                </div>
+                <div id="finalResult">
+                    <h3>Final Result</h3>
+                    <p>Path will be displayed here</p>
+                </div>
+            </div>
+            <div id="simulationControls">
+                <button id="playPause">Pause</button>
+                <button id="reset">Reset</button>
+                <div id="speedControlContainer">
+                    <label for="speedControl">Simulation Speed:</label>
+                    <input type="range" id="speedControl" min="1" max="5" value="3">
+                    <span id="speedValue">3</span>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDigoD6VyUrJKAiyC1rRh5tU3_M3FYe6hk"></script>
+    <script src="script.js"></script>
+</body>
+</html>
